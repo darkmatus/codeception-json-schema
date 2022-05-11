@@ -1,5 +1,5 @@
 {
-  "name": "digitaladapt/codeception-json-schema",
+  "name": "darkmatus/codeception-json-schema",
   "type": "library",
   "description": "Json schema module for validate response by json schema for codeception test framework",
   "keywords":["json", "schema", "functional testing"],
@@ -17,6 +17,11 @@
     {
       "name": "Cnam",
       "email": "cnam812@gmail.com"
+    },
+    {
+      "name": "Michael Kopprasch",
+      "email": "mueller@s-p-it.de",
+      "homepage": "https://www.s-p-it.de"
     }
   ],
 
@@ -27,10 +32,10 @@
   },
 
   "require": {
-    "php": "^5.4||^7.0",
+    "php": ">=8.0 <9.0",
     "justinrainbow/json-schema": "^5.2"
   },
   "require-dev": {
-    "codeception/codeception": "^2.2"
+    "codeception/codeception": "^5"
   }
 }
